@@ -1,5 +1,6 @@
 # NEXIS-Individual-Research---Dog-Depression-Monitor
 
+You need a few extra components to run the prorgam!!
 
 ## In order to run everything in the folder, you need to have packages listed below. (Python VirtualEnv Setup is Strongly recommanded)
     - Python3.7
