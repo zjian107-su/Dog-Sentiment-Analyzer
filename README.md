@@ -1,8 +1,8 @@
 # NEXIS-Individual-Research---Dog-Depression-Monitor
 
-## Introduction of the project - [Presentation](https://www.youtube.com/watch?v=cR2UhljnNu0&t=500s).
+### Introduction of the project - [Presentation](https://www.youtube.com/watch?v=cR2UhljnNu0&t=500s).
 
-You need a few extra components to run the prorgam!
+### You can not run this project because I do not provide my Google Cloud API Credentials for security reason. But if you do, that's how you would run it.
 
 **In order to run everything in the folder, you need to have packages listed below. (Python VirtualEnv Setup is Strongly recommanded)**
     - Python3.7
