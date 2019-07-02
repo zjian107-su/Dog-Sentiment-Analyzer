@@ -6,7 +6,7 @@ I did it both. For the second time, instead of using my dog pictures taken from 
 
 In the future, use timer function on raspberry pi to upload a photo every 30 mins to the cloud. Generating a weekly standing/sitting percentage pie chart, it could indicates the dog depression treatment progress. 
 
-### Introduction of the project - [Presentation](https://www.youtube.com/watch?v=cR2UhljnNu0&t=500s).
+### Introduction of the project - [Presentation](https://www.youtube.com/watch?v=cR2UhljnNu0&t=500s). There is more information on my [LinkedIn](https://www.linkedin.com/in/zezhengjiang/).
 
 ### You can not run this project because I do not provide my Google Cloud API Credentials for security reason. But if you do, that's how you would run it.
 
