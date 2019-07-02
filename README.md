@@ -1,4 +1,4 @@
-# NEXIS-Individual-Research---Dog-Depression-Monitor
+# Dog-Depression-Monitor
 
 ### Introduction of the project - [Presentation](https://www.youtube.com/watch?v=cR2UhljnNu0&t=500s).
 
