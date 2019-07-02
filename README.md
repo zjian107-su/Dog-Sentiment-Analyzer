@@ -1,4 +1,10 @@
-# Dog-Depression-Monitor
+# Dog_Depression_Monitor
+
+Google AutoML Vision API is very easy to use with it's drag & drop function on its web. However, if you want to scale & automate tasks, you will need to use Termianl/CommandLine tool to connect Google AutoML Vision API to your local machine. 
+
+I did it both. For the second time, instead of using my dog pictures taken from Raspbeery Pi, I followed full google [instruction](https://cloud.google.com/vision/automl/docs/before-you-begin) to test flower data. 
+
+In the future, use timer function on raspberry pi to upload a photo every 30 mins to the cloud. Generating a weekly standing/sitting percentage pie chart, it could indicates the dog depression treatment progress. 
 
 ### Introduction of the project - [Presentation](https://www.youtube.com/watch?v=cR2UhljnNu0&t=500s).
 
