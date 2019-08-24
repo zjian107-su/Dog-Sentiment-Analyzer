@@ -1,24 +1,30 @@
 # Dog_Depression_Monitor
 
-Google AutoML Vision API is very easy to use with it's drag & drop function on its web. However, if you want to scale & automate tasks, you will need to use Termianl/CommandLine tool to connect Google AutoML Vision API to your local machine. 
+Google AutoML Vision API is very easy to use with it's drag & drop function on its web. 
 
-I did it both. For the second time, instead of using my dog pictures taken from Raspbeery Pi, I followed full google [instruction](https://cloud.google.com/vision/automl/docs/before-you-begin) to test flower data. 
+However, if you want to scale & automate tasks, you will need to use Terminal/Command Line tool to connect Google AutoML Vision API to your local machine. 
 
-In the future, use timer function on raspberry pi to upload a photo every 30 mins to the cloud. Generating a weekly standing/sitting percentage pie chart, it could indicates the dog depression treatment progress. 
+Instead of using my dog pictures taken from Raspberry Pi, I followed full google [instruction](https://cloud.google.com/vision/automl/docs/before-you-begin) to test flower data. 
 
-### Introduction of the project - [Presentation](https://www.youtube.com/watch?v=cR2UhljnNu0&t=500s). There is more information on my [LinkedIn](https://www.linkedin.com/in/zezhengjiang/).
+In the future, Bash scripting in Raspberry Pi to upload a photo every 30 minutes to the Google Cloud Storage bucket. 
 
-### You can not run this project because I do not provide my Google Cloud API Credentials for security reason. But if you do, that's how you would run it.
+Eventually, generating a weekly standing/sitting percentage pie chart, it could indicates the dog depression treatment progress. 
 
-#### In order to run everything in the folder, you need to have packages listed below. (Python VirtualEnv Setup is Strongly recommanded) #####
+### Introduction - [Presentation](https://www.youtube.com/watch?v=cR2UhljnNu0&t=500s). There is more information on my [LinkedIn](https://www.linkedin.com/in/zezhengjiang/).
+
+You can not run this project because I do not provide my Google Cloud API redentials. 
+
+However, if you create your own API credentials, that's how you would run it.
+
+#### In order to run everything in the folder, you need to have packages listed below. (Python VirtualEnv(such as [PipEnv](https://docs.pipenv.org)) setup is strongly recommended.) #####
     - Python3.7
-    - Google Cloud Platform AutomML Vision API Set up: 
+    - Google Cloud Platform AutoML Vision API Set up: 
         https://cloud.google.com/vision/automl/docs/tutorial?authuser=0
-        - gcloud command line tool;
+        - GCloud command line tool;
         - client library;
 
 #### In order to run everything in the folder, you need to have extra file named "key-file.json" to identify you as a gcloud administrator. #### 
-    - You may download it after seeting up in the gCloud "IAM" or "Service Account" section in the Google Cloud Console.  
+    - You may download it after setting up in the gCloud "IAM" or "Service Account" section in the Google Cloud Console.  
     - Put it into your working directory
 
 #### In order to run everything in the folder, you need to export global variables. For example, I did: ####
@@ -31,8 +37,8 @@ In the future, use timer function on raspberry pi to upload a photo every 30 min
 
 #### Resource Management ####
     -"AutoML Vision API Tutorial" -- Terminal Version  https://cloud.google.com/vision/automl/docs/tutorial?authuser=0 
-    -AutoML Vision Tutoral -- UI Version https://codelabs.developers.google.com/codelabs/cloud-automl-vision-intro/index.html?index=..%2F..index#0
+    -AutoML Vision Tutorial -- UI Version https://codelabs.developers.google.com/codelabs/cloud-automl-vision-intro/index.html?index=..%2F..index#0
     -"Preparing your training data" https://cloud.google.com/vision/automl/docs/prepare?authuser=0
-    -"Managing datasets" https://cloud.google.com/vision/automl/docs/datasets?authuser=0#create-dataset
+    -"Managing data sets" https://cloud.google.com/vision/automl/docs/datasets?authuser=0#create-dataset
     -"Managing models" https://cloud.google.com/vision/automl/docs/models?authuser=0#get-operation
 
