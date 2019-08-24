@@ -25,7 +25,7 @@ import os
 
 
 def create_dataset(project_id, compute_region, dataset_name, multilabel=False):
-    """Create a dataset."""
+    """Create a data set."""
     # [START automl_vision_create_dataset]
     # TODO(developer): Uncomment and set the following variables
     # project_id = 'PROJECT_ID_HERE'

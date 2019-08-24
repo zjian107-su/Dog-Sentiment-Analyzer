@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
     if args.command == "predict":
         onlyfiles = [f for f in listdir("./resources") if isfile(join("./resources", f))]
-        #Reset the file
+        # Reset the file
         os.remove("resultSave.txt")
         print("File Removed!")
         with open ("resultSave.txt", "w") as f:
@@ -38,65 +38,57 @@ if __name__ == "__main__":
                     args.score_threshold,
                 )
 
-    #New Version
+    # New Version
     from collections import Counter
     import matplotlib.pyplot as plt
 
     print("\n-------MAKING NUMBERS--------------------------\n")
-    #Read saved files
+    # Read saved files
     with open("resultSave.txt", "r") as f:
-        text=f.read()
-        #print(text)
+        text = f.read()
+        # Print(text)
 
-    #Make string into list    
-    textList=text.split(", ")
+    # Make string into list
+    textList = text.split(", ")
 
-    #delete the last item which is " "
+    # Delete the last item which is " "
     del textList[-1]
     print(textList)
 
     flowerTypeList = textList
-    countDic=Counter(flowerTypeList) #imported module
+    countDic = Counter(flowerTypeList) # Imported module
     print(countDic)
     print("")
 
-    #show all keys & values
-    total=0
-    typeNumber=0
+    # Show all keys & values
+    total = 0
+    typeNumber = 0
     for key in countDic:
         total += countDic[key]
-        print("%s has value of %s."%(key,str(countDic[key])))
+        print("%s has value of %s." % (key,str(countDic[key])))
         typeNumber += 1
 
     print('')
-        
 
-
-
-    #show all values
+    # Show all values
     for key in countDic:
         print("Percentage of %s is %s." %(key,str((countDic[key]/total))))
-        
-        
 
-    #show total
+    # Show total
     print("\n")
     print('--Total: '+ str(total))
     print('')
     print("--Type number: "+ str(typeNumber))
     print("\n")
-        
-        
-
     print("\n-------MAKING CHARTS--------------------------\n")
-    colorList=['yellowgreen', 'gold', 'lightskyblue', 'lightcoral','black','green','pink',]
+    colorList = ['yellowgreen', 'gold', 'lightskyblue', 'lightcoral','black','green','pink',]
     labels = []
-    sizes =[]
+    sizes = []
     colors = []
     explode = []
 
     #append in lables & sizes
-    loopNumber=0
+    loopNumber = 0
     for key in countDic:
         labels.append(key)
         sizes.append(str((countDic[key]/total)))
@@ -109,17 +101,12 @@ if __name__ == "__main__":
         print(sizes)
         print(colors)
         print(explode)
-    '''  
+    '''
 
-
-    plt.pie(sizes, explode=explode, labels=labels, colors=colors,
-    autopct='%1.1f%%', shadow=True, startangle=140)
-
+    plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%', shadow=True, startangle=140)
     plt.axis('equal')
     plt.show()
 
-        
-        
 
 
 
