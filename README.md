@@ -67,7 +67,9 @@ Potentional improvement:
 Eventually, the code should generate a weekly standing/sitting percentage pie chart, which indicates the dog depression treatment progress. 
 
 ## Award 
-Earned “CuseHack2019 Best Rookie” award at Syracuse University Hackathon
+It is originally Daniel's iSchool NEXIS Lab (Syracuse University) project but he decided to take it to a Hackathon.  
+
+Earned “CuseHack2019 Best Rookie” award at Syracuse University Hackathon, with some help from [Chris Chomicki](https://github.com/rahombus97).
 
 ![demo](https://user-images.githubusercontent.com/35544956/82737584-e8c72d80-9ce6-11ea-97ad-406da0aa8c4a.jpg)
 
