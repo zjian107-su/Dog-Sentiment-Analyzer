@@ -53,9 +53,11 @@ $ export MODEL_ID="ICN7153473003916430375"
 
 ## Screenshots 
 **Data**
+
 ![data](https://user-images.githubusercontent.com/35544956/82737677-989c9b00-9ce7-11ea-894b-8396a33f3831.jpg)
 
 **Graph**
+
 ![graph](https://user-images.githubusercontent.com/35544956/82737943-2af16e80-9ce9-11ea-99ef-0f2c5a4194b0.jpg)
 
 ## Future Outlook
