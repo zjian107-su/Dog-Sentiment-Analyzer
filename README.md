@@ -1,6 +1,6 @@
 # **Dog Depression Monitor**
 
-## **Backgrond**
+## **Background**
 
 This [Presentation](https://www.youtube.com/watch?v=cR2Uhl·jnNu0&t=500s) explains more details about this project. There is more information on my [LinkedIn](https://www.linkedin.com/in/zezhengjiang/).
 
@@ -23,7 +23,7 @@ You can not run this project because I do not provide my Google Cloud API creden
 
 ### Prerequisite
 - [full google instruction](https://cloud.google.com/vision/automl/docs/before-you-begin)
-- A traind model that can distinguish flower type
+- A trained model that can distinguish flower type
 - Python3.7.x
 - Python [Pipenv](https://pipenv.pypa.io/en/latest/) package 
 - [Google Cloud Platform AutoML Vision API Setup](https://cloud.google.com/vision/automl/docs/tutorial?authuser=0) 
@@ -61,7 +61,7 @@ $ export MODEL_ID="ICN7153473003916430375"
 ![graph](https://user-images.githubusercontent.com/35544956/82737943-2af16e80-9ce9-11ea-99ef-0f2c5a4194b0.jpg)
 
 ## Future Outlook
-Potentional improvement:    
+Potential improvement:    
 - Writing Bash scripting to upload a photo every 30 minutes from a Raspberry pi to the Google Cloud Storage bucket. 
 
 Eventually, the code should generate a weekly standing/sitting percentage pie chart, which indicates the dog depression treatment progress. 
@@ -69,7 +69,7 @@ Eventually, the code should generate a weekly standing/sitting percentage pie ch
 ## Award 
 It is originally Daniel's iSchool NEXIS Lab (Syracuse University) project but he decided to take it to a Hackathon.  
 
-Earned “CuseHack2019 Best Rookie” award at Syracuse University Hackathon, with some help from [Chris Chomicki](https://github.com/rahombus97).
+Earned the “CuseHack2019 Best Rookie” award at Syracuse University Hackathon, with some help from [Chris Chomicki](https://github.com/rahombus97).
 
 ![demo](https://user-images.githubusercontent.com/35544956/82737584-e8c72d80-9ce6-11ea-97ad-406da0aa8c4a.jpg)
 
