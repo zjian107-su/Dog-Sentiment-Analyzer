@@ -1,7 +1,7 @@
 # Dog Depression Monitor
 
 ## Background
-The Dog Depression Monitor is a machine learning project aimed at monitoring a dog's anxiety issue treatment. This project utilizes body posture to track the dog's progress, assuming that an anxious or depressed dog has more standing or laying time. To build and train the machine learning model, images need to be uploaded. Google AutoML Vision API is used for this purpose, which has a user-friendly drag & drop function on its web platform. However, to scale and automate tasks, one needs to connect Google AutoML Vision API to the local machine through the Terminal/Command Line tool.
+The Dog Depression Monitor is a machine learning project aimed at monitoring a dog's anxiety issue treatment. This project utilizes body posture to track the dog's progress, assuming that an anxious or depressed dog has more standing or laying time. To build and train the machine learning model, images need to be uploaded. Google AutoML Vision API is used for this purpose, which has a user-friendly drag & drop function on its web platform. However, to scale and automate tasks, one needs to connect Google Cloud AutoML Vision API to the local machine through the Terminal/Command Line tool.
 
 ## Introduction
 This project cannot be run as the author does not provide Google Cloud API credentials. However, the project's code can be analyzed to understand how it could potentially work to track a dog's depression progress. 
